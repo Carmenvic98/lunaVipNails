@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+@import './config-scss/reset.scss';
+@import './config-scss/variables.scss';
+
+
+html{
+    background: var(--color-principal);
+}
+
+
+main {
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
