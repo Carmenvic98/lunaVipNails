@@ -1,0 +1,39 @@
+.about-us{
+    .information{
+        background: var(--color-degradado);
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+
+        h2{
+            font-family: 'Gentium Book Basic', serif;
+            font-size: 40px;
+            font-style: italic;
+            font-weight: 700;
+        }
+
+        p{
+            font-family: 'Gentium Book Basic', serif;
+            font-size: 30px;
+            width: 1100px;  
+            margin-left: 70px;
+        }
+    }
+}
+
+@media screen and (max-width: 600px){
+    .about-us{
+        .information{
+            h2{
+                font-size: 20px;
+            }
+            p{
+                font-size: 13px;
+                width: 500px;
+                margin-left: 40px;
+            }
+        }
+    }
+    
+}

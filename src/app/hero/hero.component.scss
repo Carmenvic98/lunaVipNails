@@ -1,0 +1,60 @@
+.hero{
+    .container{
+
+        img{
+            width: 100%;
+            height: 400px;
+            position: absolute;
+        }
+
+        p{
+            font-family: 'Gentium Book Basic', serif;
+            font-size: 50px;
+            font-style: italic;
+            font-weight: 700;
+            position: relative;
+            top: 30px;
+            left: 40px;
+            width: 350px;
+            height: 300px;
+        }
+
+        .call{
+            font-family: 'Gentium Book Basic', serif;
+            font-style: italic;
+            font-size: 20px;
+            font-weight: 700;
+            position: relative;
+            bottom: 20px;
+            left: 100px;
+            padding: 10px 25px;
+            border: none;
+            background: var(--color-degradado);
+        }
+    }
+}
+
+@media screen and (max-width: 600px){
+    .hero{
+        .container{
+            width: 100%;
+            img{
+                width: 100%;
+                height: 300px;
+            }
+
+            p{
+                font-size: 25px;
+                width: 180px;
+                left: 20px;
+            }
+
+            .call{
+                font-size: 15px;
+                padding: 5px 10px;
+                bottom: 120px;
+                left: 30px;
+            }
+        }
+    }
+}
